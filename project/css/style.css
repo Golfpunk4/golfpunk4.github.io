@@ -1,0 +1,30 @@
+body {
+    background-color: burlywood;
+    font-size: 16px;
+}
+
+header,
+nav,
+main,
+page-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid #333333;
+    padding: 10px;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #cccccc;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
