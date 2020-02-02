@@ -28,6 +28,7 @@ header {
     padding: 10px;
     display: block;
     position: relative;
+    font-family: 'Wendy one';
 }
 
 header img {
@@ -54,9 +55,22 @@ header h1 {
     font-size: 3.5rem;
 }
 
+h1 {
+    font-family: 'Wendy one';
+}
+
+h2 {
+    font-family: 'Wendy one';
+}
+
+p {
+    font-family: 'knewave';
+}
+
 footer {
     background-color: var(--secondary-color);
     height: auto;
+    font-family: 'Knewave';
 }
 
 footer p {
@@ -64,6 +78,7 @@ footer p {
     padding: 15px 0 0 10px;
     text-align: left;
     color: var(--accent1-color);
+    font-family: 'Knewave';
 }
 
 .social {
