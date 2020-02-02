@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave|Wendy+One&display=swap');
+:root {
+    --primary-color: #AFC2D5;
+    --secondary-color: #006e90;
+    --accent1-color: #330c2f;
+    --accent2-color: #7b287d;
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: Knewave, Wendy,
+}
+
 body {
-    background-color: #396E94;
-    font-size: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 1em
 }
 
 header,
@@ -27,4 +39,26 @@ header img {
 
 header h1 {
     font-size: 3.5rem;
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
+
+footer p {
+    margin: 0;
+    padding: 15px 0 0 10px;
+    text-align: left;
+    color: var(--accent1-color);
+}
+
+.social {
+    text-align: right;
+    margin-top: -25px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+.social img {
+    width: 32px;
 }
