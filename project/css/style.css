@@ -4,8 +4,8 @@
     --secondary-color: #006e90;
     --accent1-color: #330c2f;
     --accent2-color: #7b287d;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Knewave, Wendy,
+    --heading-font: "Knewave";
+    --paragraph-font: 'Knewave', 'Wendy One',
 }
 
 body {
@@ -15,8 +15,6 @@ body {
     padding: 1em
 }
 
-header,
-nav,
 main,
 page-container {
     max-width: 960px;
@@ -24,17 +22,31 @@ page-container {
 }
 
 header {
-    background-color: darkblue;
+    background-color: var(--secondary-color);
     color: white;
     border: 1px solid #333333;
     padding: 10px;
+    position: relative;
 }
 
 header img {
     width: 50px;
     height: auto;
-    border: 1px solid black;
-    box-shadow: 0 0 30px #cccccc;
+}
+
+nav {
+    position: relative;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 5px 10px 30px;
+}
+
+nav img {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -20px;
 }
 
 header h1 {
@@ -43,6 +55,7 @@ header h1 {
 
 footer {
     background-color: var(--secondary-color);
+    height: auto;
 }
 
 footer p {
@@ -55,7 +68,7 @@ footer p {
 .social {
     text-align: right;
     margin-top: -25px;
-    padding-right: 5px;
+    padding-right: 0px;
     padding-bottom: 3px;
 }
 
