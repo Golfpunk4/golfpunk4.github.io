@@ -4,8 +4,8 @@
     --secondary-color: #006e90;
     --accent1-color: #330c2f;
     --accent2-color: #7b287d;
-    --heading-font: "Knewave";
-    --paragraph-font: 'Knewave', 'Wendy One',
+    --heading-font: "Knewave", sans-serif;
+    --paragraph-font: 'Wendy One', sans-serif,
 }
 
 body {
