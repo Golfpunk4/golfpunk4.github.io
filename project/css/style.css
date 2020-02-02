@@ -26,6 +26,7 @@ header {
     color: white;
     border: 1px solid #333333;
     padding: 10px;
+    display: block;
     position: relative;
 }
 
@@ -46,7 +47,7 @@ nav a {
 nav img {
     position: absolute;
     margin-top: 0px;
-    margin-left: -20px;
+    margin-left: -15px;
 }
 
 header h1 {
