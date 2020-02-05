@@ -12,7 +12,8 @@ body {
     max-width: 900px;
     margin: 0 auto;
     background-color: var(--primary-color);
-    padding: 1em
+    padding: 0;
+    font-size: 16px;
 }
 
 main,
@@ -25,19 +26,20 @@ header {
     background-color: var(--secondary-color);
     color: white;
     border: 1px solid #333333;
-    padding: 10px;
+    padding: 5px;
     display: block;
-    position: relative;
+    justify-content: center;
     font-family: 'Wendy one';
 }
 
 header img {
-    width: 50px;
+    width: 125px;
     height: auto;
 }
 
 nav {
     position: relative;
+    display: block;
 }
 
 nav a {
@@ -52,7 +54,14 @@ nav img {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+.motto {
+    font-size: 1rem;
+    letter-spacing: 1.5pt;
 }
 
 h1 {
