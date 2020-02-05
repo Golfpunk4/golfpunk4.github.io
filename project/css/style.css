@@ -18,7 +18,7 @@ body {
 
 main,
 page-container {
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -42,10 +42,7 @@ nav {
     display: block;
 }
 
-nav a {
-    display: inline-block;
-    padding: 10px 5px 10px 30px;
-}
+
 
 nav img {
     position: absolute;
