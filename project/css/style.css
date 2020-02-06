@@ -16,8 +16,7 @@ body {
     font-size: 16px;
 }
 
-main,
-page-container {
+main, page-container {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -30,66 +29,70 @@ header {
     display: flex;
     justify-content: center;
     font-family: 'Wendy one';
+    font-size: 1.5rem;
 }
 
 header img {
+    padding: 15px;
     width: 125px;
     height: auto;
 }
 
-header h1 {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    justify-content: center;
-}
 .motto {
     font-size: 1rem;
     letter-spacing: 1.5pt;
 }
+
 nav {
-    position: relative;
+    background-color: #330c2f;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     display: flex;
 }
-nav img {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: -15px;
+
+nav ul li {
+    flex: 1 1 100%;
 }
 
-h1 {
-    font-family: 'Wendy one';
-}
-
-h2 {
-    font-family: 'Wendy one';
-}
-
-p {
-    font-family: 'knewave';
-}
-
-footer {
-    background-color: var(--secondary-color);
-    height: auto;
-    font-family: 'Knewave';
-}
-
-footer p {
-    margin: 0;
-    padding: 15px 0 0 10px;
-    text-align: left;
-    color: var(--accent1-color);
-    font-family: 'Knewave';
-}
-
-.social {
-    text-align: right;
-    margin-top: -25px;
-    padding-right: 0px;
-    padding-bottom: 3px;
-}
-
-.social img {
-    width: 32px;
-}
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    h1, h2 {
+        font-family: 'Wendy one';
+    }
+    p {
+        font-family: 'knewave';
+    }
+    footer {
+        padding: 15px;
+        background-color: var(--secondary-color);
+        height: auto;
+        font-family: 'Knewave';
+    }
+    footer p {
+        margin: 0;
+        padding: 15px 0 0 10px;
+        text-align: left;
+        color: var(--accent1-color);
+        font-family: 'Knewave';
+    }
+    .social {
+        text-align: right;
+        margin-top: -25px;
+        padding-right: 0px;
+        padding-bottom: 3px;
+    }
+    .social img {
+        width: 32px;
+    }
