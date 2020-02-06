@@ -15,7 +15,9 @@ body {
     padding: 0;
     font-size: 16px;
 }
-
+section {
+    text-align: left;
+}
 main, page-container {
     max-width: 900px;
     margin: 0 auto;
@@ -36,6 +38,7 @@ header img {
     padding: 15px;
     width: 125px;
     height: auto;
+    text-align: left;
 }
 
 .motto {
@@ -47,6 +50,7 @@ nav {
     background-color: #330c2f;
     text-align: center;
     box-shadow: 0 2px 15px gray;
+    font-family: Wendy one;
 }
 
 nav ul {
@@ -68,31 +72,44 @@ nav li a {
     padding: 0.75rem;
     text-decoration: none;
     font-size: 0.95rem;
-    h1, h2 {
-        font-family: 'Wendy one';
-    }
-    p {
-        font-family: 'knewave';
-    }
-    footer {
-        padding: 15px;
-        background-color: var(--secondary-color);
-        height: auto;
-        font-family: 'Knewave';
-    }
-    footer p {
-        margin: 0;
-        padding: 15px 0 0 10px;
-        text-align: left;
-        color: var(--accent1-color);
-        font-family: 'Knewave';
-    }
-    .social {
-        text-align: right;
-        margin-top: -25px;
-        padding-right: 0px;
-        padding-bottom: 3px;
-    }
-    .social img {
-        width: 32px;
-    }
+}
+nav a:hover {
+	background-color:var(--primary-color);
+	color: #36454f;
+}
+.active {
+	color:var(--accent2-color);
+}
+h1, h2 {
+    font-family: 'Wendy one';
+}
+
+p {
+    font-family: 'knewave';
+}
+
+footer {
+    padding: 15px;
+    background-color: var(--secondary-color);
+    height: auto;
+    font-family: 'Knewave';
+}
+
+footer p {
+    margin: 0;
+    padding: 15px 0 0 10px;
+    text-align: left;
+    color: var(--accent1-color);
+    font-family: 'Knewave';
+}
+
+.social {
+    text-align: right;
+    margin-top: -25px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+}
+
+.social img {
+    width: 32px;
+}
