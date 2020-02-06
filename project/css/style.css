@@ -32,11 +32,13 @@ header {
     border: 1px solid #333333;
     padding: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-family: 'Wendy one';
     font-size: 1.5rem;
 }
-
+.heading{
+    justify-content: center;
+}
 header img {
     padding: 15px;
     width: 125px;
