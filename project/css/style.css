@@ -17,7 +17,7 @@ body {
 }
 
 section {
-    text-align: left;
+    display: block;
 }
 
 main, page-container {
@@ -31,18 +31,15 @@ header {
     border: 1px solid #333333;
     padding: 5px;
     display: flex;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     font-family: 'Wendy one';
     font-size: 1.5rem;
 }
 
-.heading {
-    justify-content: center;
-}
-
 header img {
     padding: 15px;
-    width: 125px;
+    width: 10rem;
     height: auto;
     text-align: left;
 }
@@ -90,6 +87,7 @@ nav a:hover {
 }
 
 h1, h2 {
+    display: block;
     font-family: 'Wendy one';
 }
 
