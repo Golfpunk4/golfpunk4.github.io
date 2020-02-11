@@ -4,47 +4,61 @@ body {
     margin: 30px;
     width: 600px;
     font-family: 'Courier New', Courier, monospace
-  }
-  
-  /* Activity 1 styles */
-  
-  .content1 {
+}
+
+/* Activity 1 styles */
+
+.content1 {
     display: grid;
+    width: 600px;
+    padding: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "a a"
-    "b"
-    "c"
-    "d d"
-    ;
-    justify-items: center;
+    grid-auto-rows: minmax(50px, auto);
     grid-gap: 20px;
-  }
-  
-  .red1 {
-    width: 100%;
+    grid-template-areas: "a a" "b e" "c f" "d d";
+}
+
+.red1 {
+    grid-area: a;
     height: 100px;
     background-color: red;
-    grid-area: a;
-  }
-  
-  .green1 {
-    width: 200px;
-    height: 200px;
-    background-color: green;
+}
+
+.green1 {
     grid-area: b;
-  }
-  
-  .gold1 {
-    width: 200px;
     height: 200px;
-    background-color: gold;
-    grid-area: c;
-  }
+    width: 200px;
+    background-color: green;
+    justify-self: center;
   
-  .blue1 {
-    width: 100%;
+}
+
+.green2 {
+    grid-area: e;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    justify-self: center;
+}
+
+.gold1 {
+    grid-area: c;
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    justify-self: center;
+}
+
+.gold2 {
+    grid-area: f;
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    justify-self: center;
+}
+
+.blue1 {
+    grid-area: d;
     height: 100px;
     background-color: blue;
-    grid-area: d;
-  }
+}
