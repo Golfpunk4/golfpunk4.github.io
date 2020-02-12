@@ -89,8 +89,6 @@ body {
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  
   margin: 0;
 }
 
@@ -105,7 +103,6 @@ body {
   width: 90%;
   height: 200px;
   background-color: green;
-  
 }
 
 .yellow3 {
@@ -121,50 +118,45 @@ body {
   background-color: blue;
   grid-column: 1 / 3;
 }
+
 /* Activity 4 styles */
 
 .content4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  
+  grid-auto-rows: 100px;
   margin: 0;
 }
 
 .red4 {
-  width: 100%;
-  height: 100px;
+  width: 1fr;
+  height: 300px;
   background-color: red;
-  grid-column: 1 / 3;
 }
 
 .green4 {
-  width: 90%;
-  height: 200px;
+  width: 1fr;
+  height: 100px;
   background-color: green;
-  
 }
 
 .yellow4 {
-  width: 90%;
-  height: 200px;
+  width: 1fr;
+  height: 100px;
   background-color: gold;
-  justify-self: right;
+  grid-column: 2 / 3;
 }
 
 .blue4 {
-  width: 100%;
+  width: 1fr;
   height: 100px;
   background-color: blue;
-  grid-column: 1 / 3;
+  grid-column: 2 / 3;
 }
+
 /* Activity 5 styles */
 
 .content5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  
-  
   margin: 0;
 }
 
@@ -172,36 +164,34 @@ body {
   width: 100%;
   height: 100px;
   background-color: red;
-  grid-column: 1 / 3;
 }
 
 .green5 {
-  width: 90%;
+  float: left;
+  width: 200px;
   height: 200px;
   background-color: green;
-  
+  margin: 0 10px 10px 0;
 }
 
 .yellow5 {
-  width: 90%;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   background-color: gold;
-  justify-self: right;
 }
 
 .blue5 {
+  position: relative;
   width: 100%;
   height: 100px;
   background-color: blue;
-  grid-column: 1 / 3;
 }
+
 /* Activity 6 styles */
 
 .content6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  
   margin: 0;
 }
 
@@ -216,7 +206,6 @@ body {
   width: 90%;
   height: 200px;
   background-color: green;
-  
 }
 
 .yellow6 {
