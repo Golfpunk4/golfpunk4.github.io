@@ -44,33 +44,44 @@ body {
 /* Activity 2 styles */
 
 .content2 {
-  position: absolute;
+  height: 400px;
+  width: 400px;
+  position: relative;
   top: 30px;
   left: 30px;
 }
 
-.red1 {
+.red2 {
   width: 100px;
   height: 100px;
   background-color: red;
 }
 
-.green1 {
+.green2 {
   width: 100px;
   height: 100px;
   background-color: green;
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
-.gold1 {
+.yellow2 {
   width: 100px;
   height: 100px;
   background-color: gold;
+  position: absolute;
+  top: 100px;
+  left: 100px;
 }
 
-.blue1 {
+.blue2 {
   width: 100px;
   height: 100px;
   background-color: blue;
+  position: absolute;
+  top: 150px;
+  left: 150px;
 }
 
 /* Activity 3 styles */
@@ -78,30 +89,144 @@ body {
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  grid-gap: 20px;
+  
+  
+  margin: 0;
 }
 
-.red1 {
+.red3 {
   width: 100%;
   height: 100px;
   background-color: red;
   grid-column: 1 / 3;
 }
 
-.green1 {
-  width: 200px;
+.green3 {
+  width: 90%;
   height: 200px;
   background-color: green;
+  
 }
 
-.gold1 {
-  width: 200px;
+.yellow3 {
+  width: 90%;
   height: 200px;
   background-color: gold;
+  justify-self: right;
 }
 
-.blue1 {
+.blue3 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1 / 3;
+}
+/* Activity 4 styles */
+
+.content4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+  margin: 0;
+}
+
+.red4 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1 / 3;
+}
+
+.green4 {
+  width: 90%;
+  height: 200px;
+  background-color: green;
+  
+}
+
+.yellow4 {
+  width: 90%;
+  height: 200px;
+  background-color: gold;
+  justify-self: right;
+}
+
+.blue4 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1 / 3;
+}
+/* Activity 5 styles */
+
+.content5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+  margin: 0;
+}
+
+.red5 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1 / 3;
+}
+
+.green5 {
+  width: 90%;
+  height: 200px;
+  background-color: green;
+  
+}
+
+.yellow5 {
+  width: 90%;
+  height: 200px;
+  background-color: gold;
+  justify-self: right;
+}
+
+.blue5 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1 / 3;
+}
+/* Activity 6 styles */
+
+.content6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+  margin: 0;
+}
+
+.red6 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1 / 3;
+}
+
+.green6 {
+  width: 90%;
+  height: 200px;
+  background-color: green;
+  
+}
+
+.yellow6 {
+  width: 90%;
+  height: 200px;
+  background-color: gold;
+  justify-self: right;
+}
+
+.blue6 {
   width: 100%;
   height: 100px;
   background-color: blue;
