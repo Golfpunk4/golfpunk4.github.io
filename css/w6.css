@@ -195,7 +195,8 @@ p {
 
 .content6 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
   margin: 0;
 }
 
@@ -209,19 +210,23 @@ p {
   width: 200px;
   height: 200px;
   background-color: green;
+  grid-row: 5 / 7;
+  z-index: 1;
 }
 
 .yellow6 {
   width: 200px;
   height: 400px;
   background-color: gold;
-  justify-self: right;
+  grid-column: 5 / 7;
+  grid-row: 3 / 7;
+  z-index: 1;
 }
 
 .blue6 {
   width: 400px;
   height: 400px;
   background-color: blue;
-  justify-self: center;
-  align-self: center;
+  grid-column: 2 / 6;
+  grid-row: 2 / 6;
 }
