@@ -19,7 +19,10 @@ body {
 section {
     display: block;
 }
-
+.banner-box img { 
+    width:100%; 
+    height: auto;
+ }
 main, page-container {
     max-width: 900px;
     margin: 0 auto;
