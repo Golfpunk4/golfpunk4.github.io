@@ -93,6 +93,7 @@ nav a:hover {
     margin: 1em 3em;
     padding: 1em;
     text-align: center;
+    font-family: 'Wendy one';
 }
 
 .action button {
@@ -100,6 +101,7 @@ nav a:hover {
     width: 10em;
     background-color: var(--accent2-color);
     font-size: 1.2em;
+    font-family: 'Wendy one';
 }
 
 body {
@@ -140,7 +142,7 @@ h2 {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 50px 1fr 150px 50px 1fr;
+    grid-template-rows: 150px 100px 100px 1fr 150px 100px 1fr;
     align-items: center;
     margin: auto 10px auto 10px;
 }
