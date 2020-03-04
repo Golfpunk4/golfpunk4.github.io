@@ -248,6 +248,80 @@ h2 {
     grid-column: 5;
     grid-row: 2 / 4;
 }
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 25px 1fr 25px 1fr;
+    grid-template-rows: 150px 200px 200px 200px 200px 200px 450px;
+    align-items: center;
+    margin: auto 10px auto 10px;
+}
+.faq-headline-1 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+.faq-paragraph-1 {
+    grid-column: 1;
+    grid-row: 2, 4;
+    text-align: center;
+    align-self: baseline;
+}
+.faq-headline-2 {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+.faq-paragraph-2 {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    align-self: baseline;
+}
+.faq-headline-3 {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+}
+.faq-paragraph-3 {
+    grid-column: 5;
+    grid-row: 2, 8;
+    text-align: center;
+    align-self: baseline;
+}
+.faq-headline-4 {
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+    align-items: baseline;
+}
+.faq-paragraph-4 {
+    grid-column: 1;
+    grid-row: 6;
+    text-align: center;
+    align-self: baseline;
+}
+.faq-headline-5 {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+.faq-paragraph-5 {
+    grid-column: 3;
+    grid-row: 5;
+    text-align: center;
+    align-self: baseline;
+}
+.faq-headline-6 {
+    grid-column: 3;
+    grid-row: 6;
+    text-align: center;
+}
+.faq-paragraph-6 {
+    grid-column: 3;
+    grid-row: 7;
+    text-align: center;
+    align-self: flex-start;
+}
 footer {
     padding: 15px;
     background-color: var(--secondary-color);
