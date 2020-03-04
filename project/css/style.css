@@ -251,7 +251,7 @@ h2 {
 .faq-grid {
     display: grid;
     grid-template-columns: 1fr 25px 1fr 25px 1fr;
-    grid-template-rows: 150px 200px 200px 200px 200px 200px 450px;
+    grid-template-rows: 150px 200px 200px 100px 150px 100px 550px;
     align-items: center;
     margin: auto 10px auto 10px;
 }
