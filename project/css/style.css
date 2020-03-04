@@ -208,7 +208,7 @@ h2 {
 .river-paragraph-1 {
     grid-column: 1;
     grid-row: 4 / 6;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .river-left-img {
@@ -224,7 +224,7 @@ h2 {
 .river-paragraph-2 {
     grid-column: 3;
     grid-row: 4 / 6;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .river-right-img {
@@ -240,7 +240,7 @@ h2 {
 .river-paragraph-3 {
     grid-column: 5;
     grid-row: 4 / 6;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .river-center-img {
@@ -263,7 +263,7 @@ h2 {
 .faq-paragraph-1 {
     grid-column: 1;
     grid-row: 2, 4;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .faq-headline-2 {
@@ -274,7 +274,7 @@ h2 {
 .faq-paragraph-2 {
     grid-column: 3;
     grid-row: 2;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .faq-headline-3 {
@@ -285,7 +285,7 @@ h2 {
 .faq-paragraph-3 {
     grid-column: 5;
     grid-row: 2, 8;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .faq-headline-4 {
@@ -297,7 +297,7 @@ h2 {
 .faq-paragraph-4 {
     grid-column: 1;
     grid-row: 6;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .faq-headline-5 {
@@ -308,7 +308,7 @@ h2 {
 .faq-paragraph-5 {
     grid-column: 3;
     grid-row: 5;
-    text-align: center;
+    text-align: left;
     align-self: baseline;
 }
 .faq-headline-6 {
@@ -319,7 +319,7 @@ h2 {
 .faq-paragraph-6 {
     grid-column: 3;
     grid-row: 7;
-    text-align: center;
+    text-align: left;
     align-self: flex-start;
 }
 footer {
