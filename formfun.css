@@ -86,4 +86,5 @@ button {
        between the labels and their text fields */
     margin-left: .5em;
     margin-top: 1em;
+    border-radius: .25em;
 }
