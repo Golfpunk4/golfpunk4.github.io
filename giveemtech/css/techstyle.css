@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+:root {
+    --primary-color: #d6f8d6;
+    --secondary-color: #7fc6a4;
+    --accent1-color: #5d737e;
+    --accent2-color: #55505c;
+    --accent3-color: #faf33e;
+}
+header {
+    width: auto;
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid #333333;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Oxanium;
+    font-size: 1.5rem;
+}
+
+header img {
+    padding: 15px;
+    width: 10rem;
+    height: auto;
+    text-align: left;
+}
+nav {
+    background-color: var(--accent2-color);
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    font-family: Oxanium;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+   
+}
+footer {
+    padding: 15px;
+    background-color: var(--secondary-color);
+    height: auto;
+    text-align: left;
+    font-family: Oxanium;
+}
+
+footer p {
+    margin: 0;
+    padding: 15px 0 0 10px;
+    text-align: left;
+    color: var(--accent1-color);
+}
+
+.social {
+    text-align: right;
+    margin-top: -25px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+}
+
+.social img {
+    width: 32px;
+}
