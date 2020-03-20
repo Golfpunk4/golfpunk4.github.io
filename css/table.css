@@ -16,13 +16,12 @@ th {
     background-color: black;
     color: white;
 }
+
 th, td {
     border: rgb(184, 184, 184) solid 1.5px;
     padding: 4px;
 }
 
-
 .middle {
     background-color: rgb(202, 202, 202);
-  
 }
