@@ -28,6 +28,7 @@ header img {
     height: auto;
     text-align: left;
 }
+
 .heading {
     margin-left: 20px;
     display: flex;
@@ -35,6 +36,7 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
 .logo-box {
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -117,7 +119,6 @@ body {
     margin-right: auto;
     background-color: gray;
     padding: 0;
-    
     font-size: 16px;
 }
 
