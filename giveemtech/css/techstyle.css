@@ -6,13 +6,15 @@
     --accent2-color: #55505c;
     --accent3-color: #faf33e;
 }
-body{
+
+body {
     max-width: 900px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 header {
     width: auto;
     background-color: var(--secondary-color);
@@ -32,6 +34,7 @@ header img {
     height: auto;
     text-align: left;
 }
+
 nav {
     background-color: var(--accent2-color);
     text-align: center;
@@ -64,6 +67,7 @@ nav a:hover {
     background-color: var(--primary-color);
     color: var(--accent1-color);
 }
+
 .banner-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,8 +77,8 @@ nav a:hover {
     grid-column: 1 / -1;
     grid-row: 1;
     width: 100%;
-   
 }
+
 footer {
     padding: 15px;
     background-color: var(--secondary-color);
