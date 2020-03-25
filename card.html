@@ -31,9 +31,25 @@
             padding: .5em;
         }
 
-       button {
-           padding: 0.5em;
-           border-radius: 3px 0 0 3px; 
+        button {
+            padding: 0.5em;
+            border: 1px solid #777;
+            color: #444;
+            background-color: #fff;
+        }
+
+        .viewButton {
+            padding: 0.5em;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .editButton {
+            padding: 0.5em;
+            border-radius: 0 5px 5px 0;
+        }
+
+        span {
+            align-items: flex-end;
         }
     </style>
 </head>
@@ -47,8 +63,8 @@
 
         </p>
         <footer>
-            <button class="viewButton">View</button>
-            <button class="editButton">Edit</button>
+            <button type="button" class="viewButton">View</button><button type="button" class="editButton">Edit</button>
+            <span>9 mins</span>
         </footer>
     </article>
 
