@@ -12,16 +12,18 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: gray;
+    background-color: lightgray;
     padding: 0;
     font-size: 16px;
     font-family: Oxanium;
 }
+
 main, page-container {
     max-width: 900px;
     margin: 0 auto;
     background-color: var(--primary-color);
 }
+
 header {
     width: auto;
     background-color: var(--secondary-color);
@@ -86,28 +88,36 @@ nav a:hover {
     width: 100%;
 }
 
-
+h2 {
+    margin: auto;
+}
 .phone-left-img, .phone-right-img, .phone-center-img {
-    
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
 }
+
 .phone-grid {
     display: grid;
-  
     grid-template-columns: 250px 75px 250px 75px 250px;
-    grid-template-rows: 100px 100px 100px 1fr;
+    grid-template-rows: 50px 100px 75px 1fr;
     align-items: center;
     margin: 0;
 }
+
+.phone-grid img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
 .phone-headline-1 {
     grid-column: 1;
     text-align: center;
 }
 
 .phone-paragraph-1 {
-    padding: 1em;
+    padding: .5em;
     grid-column: 1;
     grid-row: 4 / 6;
     text-align: left;
@@ -115,8 +125,6 @@ nav a:hover {
 }
 
 .phone-left-img {
-   background-size: cover;
-   background-position: center;
     background-color: var(--secondary-color);
     grid-column: 1;
     grid-row: 2 / 4;
@@ -129,7 +137,7 @@ nav a:hover {
 }
 
 .phone-paragraph-2 {
-    padding: 1em;
+    padding: .5em;
     grid-column: 3;
     grid-row: 4 / 6;
     text-align: left;
@@ -149,7 +157,7 @@ nav a:hover {
 }
 
 .phone-paragraph-3 {
-    padding: 1em;
+    padding: .5em;
     grid-column: 5;
     grid-row: 4 / 6;
     text-align: left;
@@ -157,11 +165,11 @@ nav a:hover {
 }
 
 .phone-center-img {
-   max-width: 225px;
     background-color: var(--secondary-color);
     grid-column: 3;
     grid-row: 2 / 4;
 }
+
 footer {
     padding: 15px;
     background-color: var(--secondary-color);
@@ -187,6 +195,7 @@ footer p {
 .social img {
     width: 32px;
 }
+
 @media screen and (max-width: 550px) {
     .home-grid {
         display: block;
