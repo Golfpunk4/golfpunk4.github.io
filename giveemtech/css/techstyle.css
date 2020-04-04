@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
-:root {
+/*:root {
     --primary-color: #d6f8d6;
     --secondary-color: #7fc6a4;
     --accent1-color: #5d737e;
     --accent2-color: #55505c;
     --accent3-color: #faf33e;
 
-}
+}*/
 body {
     max-width: 900px;
     text-align: center;
@@ -21,12 +21,12 @@ body {
 main, page-container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: var(--primary-color);
+    background-color: #d6f8d6;
 }
 
 header {
     width: auto;
-    background-color: var(--secondary-color);
+    background-color: #7fc6a4;
     color: darkslategray;
     border: 1px solid #333333;
     padding: 5px;
@@ -50,7 +50,7 @@ header img {
 }
 
 nav {
-    background-color: var(--accent2-color);
+    background-color: #55505c;
     text-align: center;
     box-shadow: 0 2px 15px gray;
     font-family: Oxanium;
@@ -78,8 +78,8 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: #d6f8d6;
+    color: #5d737e;
 }
 
 .banner-box {
@@ -131,7 +131,7 @@ h2 {
 }
 
 .phone-left-img {
-    background-color: var(--secondary-color);
+    background-color: #7fc6a4;
     grid-column: 1;
     grid-row: 2 / 4;
 }
@@ -151,7 +151,7 @@ h2 {
 }
 
 .phone-right-img {
-    background-color: var(--secondary-color);
+    background-color: #7fc6a4;
     grid-column: 5;
     grid-row: 2 / 4;
 }
@@ -171,7 +171,7 @@ h2 {
 }
 
 .phone-center-img {
-    background-color: var(--secondary-color);
+    background-color: #7fc6a4;
     grid-column: 3;
     grid-row: 2 / 4;
 }
@@ -203,7 +203,7 @@ h2 {
 
 footer {
     padding: 15px;
-    background-color: var(--secondary-color);
+    background-color: #7fc6a4;
     height: auto;
     text-align: left;
     font-family: Oxanium;
@@ -213,7 +213,7 @@ footer p {
     margin: 0;
     padding: 15px 0 0 10px;
     text-align: left;
-    color: var(--accent1-color);
+    color: #5d737e;
 }
 
 .social {
