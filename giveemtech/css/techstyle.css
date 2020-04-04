@@ -36,12 +36,16 @@ header {
     font-family: Oxanium;
     font-size: 1.5rem;
 }
-
+.heading {
+    padding-left: 3em;
+}
 header img {
-    padding: 15px;
+    padding: 10px 50px 10px 10px;
+    background: lightgray;
     width: 10rem;
     height: auto;
-    text-align: left;
+  
+   border-radius: 1em;
 }
 
 nav {
