@@ -36,16 +36,17 @@ header {
     font-family: Oxanium;
     font-size: 1.5rem;
 }
+
 .heading {
     padding-left: 3em;
 }
+
 header img {
     padding: 10px 50px 10px 10px;
     background: lightgray;
     width: 10rem;
     height: auto;
-  
-   border-radius: 1em;
+    border-radius: 1em;
 }
 
 nav {
@@ -95,6 +96,7 @@ nav a:hover {
 h2 {
     margin: auto;
 }
+
 .phone-left-img, .phone-right-img, .phone-center-img {
     border: 1px solid #ccc;
     padding: 10px;
@@ -104,7 +106,7 @@ h2 {
 .phone-grid {
     display: grid;
     grid-template-columns: 250px 75px 250px 75px 250px;
-    grid-template-rows: 50px 100px 75px 1fr;
+    grid-template-rows: 50px 100px 75px 300px 1fr;
     align-items: center;
     margin: 0;
 }
@@ -172,6 +174,28 @@ h2 {
     background-color: var(--secondary-color);
     grid-column: 3;
     grid-row: 2 / 4;
+}
+.galaxy {
+    grid-column: 1;
+    grid-row: 6;
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 1em;
+}
+.iphone {
+    grid-column: 3;
+    grid-row: 6;
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 1em;
+}
+
+.pixel {
+    grid-column: 5;
+    grid-row: 6;
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 1em;
 }
 
 footer {
