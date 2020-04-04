@@ -5,8 +5,8 @@
     --accent1-color: #5d737e;
     --accent2-color: #55505c;
     --accent3-color: #faf33e;
-}
 
+}
 body {
     max-width: 900px;
     text-align: center;
@@ -181,6 +181,7 @@ h2 {
     max-width: 100%;
     object-fit: cover;
     padding-bottom: 1em;
+    border: 0px;
 }
 .iphone {
     grid-column: 3;
@@ -188,6 +189,7 @@ h2 {
     max-width: 100%;
     object-fit: cover;
     padding-bottom: 1em;
+    border: 0px;
 }
 
 .pixel {
@@ -196,6 +198,7 @@ h2 {
     max-width: 100%;
     object-fit: cover;
     padding-bottom: 1em;
+    border: 0px;
 }
 
 footer {
