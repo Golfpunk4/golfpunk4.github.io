@@ -297,7 +297,8 @@ footer p {
 }
 
 .colors td {
-    max-width: auto;
+    border: 1px black;
+    max-width: 20%;
     height: 3em
 }
 
