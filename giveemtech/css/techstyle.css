@@ -272,6 +272,50 @@ footer p {
     width: 32px;
 }
 
+img {
+    background: lightgray;
+    width: 10rem;
+    height: auto;
+    border-radius: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center
+    
+}
+
+.colors th {
+    background-color: #999
+    
+}
+
+.colors td {
+    max-width: auto;
+    height: 3em
+}
+.primary {
+    background-color: #d6f8d6;
+}
+
+.secondary {
+    background-color: #7fc6a4;
+}
+
+.accent1 {
+    background-color: #5d737e;
+}
+
+.accent2 {
+    background-color: #55505c;
+
+}
+.accent3 {
+    background-color: #faf33e;
+
+}
 @media screen and (max-width: 550px) {
     .home-grid {
         display: block;
