@@ -7,6 +7,7 @@
     --accent3-color: #faf33e;
 
 }*/
+
 body {
     max-width: 900px;
     text-align: center;
@@ -93,6 +94,35 @@ nav a:hover {
     width: 100%;
 }
 
+/* This is the tech page CSS
+*/
+
+.tech-img1, .tech-img2, .tech-img3, .tech-img4, .tech-img5, .tech-img6 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+   max-width: 300px;
+    background-color: #7fc6a4;
+    display: block;
+    object-fit: cover;
+    align-items: center;
+}
+
+.tech-headline-1 {
+    padding: 1em;
+}
+
+.tech p {
+    font-weight: bold;
+    text-align: center;
+    
+    align-items: center;
+   
+}
+
+/* This is the phone page CSS
+*/
+
 h2 {
     margin: auto;
 }
@@ -175,6 +205,7 @@ h2 {
     grid-column: 3;
     grid-row: 2 / 4;
 }
+
 .galaxy {
     grid-column: 1;
     grid-row: 6;
@@ -183,6 +214,7 @@ h2 {
     padding-bottom: 1em;
     border: 0px;
 }
+
 .iphone {
     grid-column: 3;
     grid-row: 6;
