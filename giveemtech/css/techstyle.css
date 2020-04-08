@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Oxanium;
+    font-family: Oxanium, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -54,7 +54,7 @@ nav {
     background-color: #55505c;
     text-align: center;
     box-shadow: 0 2px 15px gray;
-    font-family: Oxanium;
+    font-family: Oxanium, sans-serif;
 }
 
 nav ul {
@@ -102,21 +102,19 @@ nav a:hover {
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
     background-color: #5d737e;
-  width: auto;
+    width: auto;
 }
+
 .tech img {
-  
     display: block;
     margin-left: auto;
     margin-right: auto;
-   max-width: 400px;
-   
-  
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-   
     align-items: center;
 }
+
 .tech-headline-1 {
     padding: 1em;
 }
@@ -124,14 +122,14 @@ nav a:hover {
 .tech p {
     font-weight: bold;
     text-align: center;
-    
     align-items: center;
-   
 }
+
 .last-p {
     margin-bottom: 0em;
     padding-bottom: .5em;
 }
+
 /* This is the phone page CSS
 */
 
@@ -250,7 +248,7 @@ footer {
     background-color: #7fc6a4;
     height: auto;
     text-align: left;
-    font-family: Oxanium;
+    font-family: Oxanium, sans-serif;
 }
 
 footer p {
