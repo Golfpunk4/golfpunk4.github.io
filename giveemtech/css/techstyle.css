@@ -104,6 +104,8 @@ nav a:hover {
    max-width: 300px;
     background-color: #7fc6a4;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
     align-items: center;
 }
