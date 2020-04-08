@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Oxanium&display=swap');
 /*:root {
     --primary-color: #d6f8d6;
     --secondary-color: #7fc6a4;
@@ -16,7 +16,7 @@ body {
     background-color: lightgray;
     padding: 0;
     font-size: 16px;
-    font-family: Oxanium;
+    font-family: Oxanium, Chakra Petch, sans-serif;
 }
 
 main, page-container {
@@ -101,15 +101,22 @@ nav a:hover {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
-   max-width: 300px;
-    background-color: #7fc6a4;
+    background-color: #5d737e;
+  width: auto;
+}
+.tech img {
+  
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-fit: cover;
+   max-width: 400px;
+   
+  
+    margin-left: auto;
+    margin-right: auto;
+   
     align-items: center;
 }
-
 .tech-headline-1 {
     padding: 1em;
 }
@@ -121,7 +128,10 @@ nav a:hover {
     align-items: center;
    
 }
-
+.last-p {
+    margin-bottom: 0em;
+    padding-bottom: .5em;
+}
 /* This is the phone page CSS
 */
 
@@ -163,7 +173,7 @@ h2 {
 }
 
 .phone-left-img {
-    background-color: #7fc6a4;
+    background-color: #5d737e;
     grid-column: 1;
     grid-row: 2 / 4;
 }
@@ -183,7 +193,7 @@ h2 {
 }
 
 .phone-right-img {
-    background-color: #7fc6a4;
+    background-color: #5d737e;
     grid-column: 5;
     grid-row: 2 / 4;
 }
@@ -203,7 +213,7 @@ h2 {
 }
 
 .phone-center-img {
-    background-color: #7fc6a4;
+    background-color: #5d737e;
     grid-column: 3;
     grid-row: 2 / 4;
 }
