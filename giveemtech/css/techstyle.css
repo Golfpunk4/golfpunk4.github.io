@@ -272,7 +272,13 @@ footer p {
     width: 32px;
 }
 
-img {
+.planhead {
+    display: block;
+    padding: 1em;
+    text-align: center;
+}
+
+.siteplan img {
     background: lightgray;
     width: 10rem;
     height: auto;
@@ -284,18 +290,17 @@ img {
     min-width: 350px;
     margin: auto;
     text-align: center
-    
 }
 
 .colors th {
     background-color: #999
-    
 }
 
 .colors td {
     max-width: auto;
     height: 3em
 }
+
 .primary {
     background-color: #d6f8d6;
 }
@@ -310,12 +315,12 @@ img {
 
 .accent2 {
     background-color: #55505c;
-
 }
+
 .accent3 {
     background-color: #faf33e;
-
 }
+
 @media screen and (max-width: 550px) {
     .home-grid {
         display: block;
