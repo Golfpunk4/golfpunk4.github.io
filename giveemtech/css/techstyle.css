@@ -271,9 +271,11 @@ footer p {
 .social img {
     width: 32px;
 }
+
 .siteplan {
     background-color: white;
 }
+
 .planhead {
     display: block;
     padding: 1em;
@@ -286,13 +288,16 @@ footer p {
     height: auto;
     border-radius: 1em;
 }
+
 .boldp {
     font-weight: bold;
 }
+
 .finalp {
     margin-bottom: 0em;
     padding-bottom: .5em;
 }
+
 .colors {
     width: 100%;
     min-width: 350px;
