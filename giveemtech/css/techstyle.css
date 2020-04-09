@@ -122,8 +122,11 @@ nav a:hover {
 
 .home-right-img {
     background-color: #5d737e;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     grid-column: 4 / 6;
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
 }
 
 .home-headline-2 {
